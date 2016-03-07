@@ -16,7 +16,32 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.8.8</version>
+            <version>6.9.10</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.ddavison</groupId>
+            <artifactId>conductor</artifactId>
+            <version>1.1</version>
+<!--            <exclusions>
+                <exclusion>
+                    <artifactId>log4j-over-slf4j</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>-->
+        </dependency>
+        
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>2.43.1</version>
+            <type>jar</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
 </project>
